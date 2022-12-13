@@ -9,6 +9,12 @@ body {
   background-color: #fff;
 }
 
+@media only screen and (min-width: 992px) {
+  .navbar {
+    margin-left: -14px;
+  }
+}
+
 .navbar-brand img {
   max-height: 40px;
 }
@@ -221,4 +227,89 @@ header p {
 .btn-need-help:hover {
   background-color: #928d8d;
   color: #c3c3c3;
+}
+
+.section-detail-header {
+  height: 310px;
+  background-color: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.card-details h1 {
+  font-size: 26px;
+}
+.card-details h2 {
+  font-size: 20px;
+}
+.card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.card-right {
+  border-radius: 11px 11px 0 0;
+}
+
+.features {
+  margin-top: 20px;
+}
+.features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.features p {
+  margin-bottom: 0;
+}
+.features .descriptions {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.features .featured-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.gallery .xzoom-container .xactive {
+  border: 10px solid #1a4c9c;
+}
+
+.join-container {
+  margin-top: -16px;
+}
+.join-container .btn-join-now {
+  background-color: orange;
+  color: #fff;
+  border-radius: 0;
+}
+.join-container .btn-join-now:hover {
+  background-color: rgb(182, 122, 10);
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
