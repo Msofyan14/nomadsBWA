@@ -260,9 +260,68 @@ header p {
 .card-details h2 {
   font-size: 20px;
 }
-.card-details p {
+.card-details .trip-to {
   font-size: 18px;
   color: #b1b1b1;
+}
+.card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.card-details .disclaimer {
+  font-weight: 400;
+  font-size: 14px;
+}
+.card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+.card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+.card-details .trip-information th {
+  font-weight: 400;
+  font-size: 18px;
+  color: #071c4d;
+}
+.card-details .trip-information td {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.card-details .trip-information .total {
+  color: #071c4d;
+  font-weight: 500;
+}
+.card-details .trip-information .unique {
+  color: orange;
+  font-weight: 500;
+}
+.card-details .payment-instructions {
+  font-weight: 400px;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.card-details .bank .bank-item h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 300px;
+}
+.card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+.card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+}
+.card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
 }
 
 .card-right {
@@ -311,5 +370,15 @@ header p {
 }
 .join-container .btn-join-now:hover {
   background-color: rgb(182, 122, 10);
+  color: #fff;
+}
+
+tr {
+  border-top: hidden;
+  border-bottom: hidden;
+}
+
+.btn-add-now {
+  background-color: #071c4d;
   color: #fff;
 }/*# sourceMappingURL=main.css.map */

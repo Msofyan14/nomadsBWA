@@ -344,9 +344,97 @@ header {
         font-size: 20px;
     }
 
-    p {
+    .trip-to {
         font-size: 18px;
         color: #b1b1b1;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .disclaimer {
+        font-weight: 400;
+        font-size: 14px;
+        
+    }
+
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0;
+        }
+
+        .input-group-append {
+            .btn {
+                padding-right: 30px ;
+            }
+        }
+    }
+
+    .trip-information {
+        th {
+            font-weight: 400;
+            font-size: 18px;
+            color: #071c4d;
+        }
+
+        td {
+            font-weight: 400;
+            font-size: 18px;
+            color: #b1b1b1;
+        }
+
+    
+        .total {
+            color: #071c4d;
+            font-weight: 500;
+        }
+        .unique {
+            color: orange;
+            font-weight: 500;
+
+        }
+
+      
+    }
+
+    .payment-instructions {
+        font-weight: 400px;
+        font-size: 14px;
+        color: #b1b1b1;
+    }
+
+    .bank {
+        
+        .bank-item {
+            h3 {
+                font-size: 18px;
+                margin-bottom: 0;
+                font-weight: 300px;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .bank-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
     }
 }
 
@@ -409,4 +497,14 @@ header {
         }
     }
 
+}
+
+tr {
+    border-top: hidden;
+    border-bottom: hidden;
+}
+
+.btn-add-now {
+    background-color: #071c4d;
+    color: #fff;
 }
