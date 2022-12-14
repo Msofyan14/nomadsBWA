@@ -507,4 +507,41 @@ tr {
 .btn-add-now {
     background-color: #071c4d;
     color: #fff;
+
+    &:hover {
+        background-color: #1948b8 ;
+        color: #fff;
+    }
+}
+
+// succes page 
+.section-success {
+    height: 90vh;
+
+    .success-wrapper {
+        margin-top: -200px;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        background-color: #071c4d;
+        border-radius: 4px;
+        color: #fff;
+
+        &:hover {
+            background-color: #1948b8 ;
+            color: #fff;
+        }
+    }
+    }
+
 }
